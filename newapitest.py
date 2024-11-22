@@ -55,7 +55,7 @@ class TestAgentAPI(unittest.TestCase):
         with open('agent.json', 'r') as file:
             agent_data = json.load(file)
 
-        sections = ["prompt", "post_prompt", "params", "pronounce", "hints", "languages", "swaig"]
+        sections = ["prompt", "post_prompt", "params", "pronounce", "hints", "languages", "SWAIG"]
 
         for section in sections:
             with self.subTest(section=section):

@@ -3,7 +3,7 @@
     "main": [
       {
         "ai": {
-          "swaig": {
+          "SWAIG": {
             "defaults": {
               "web_hook_url": "https://signalwire.me/swaig/7"
             },
